@@ -1,0 +1,18 @@
+{
+  "stage": "infrastructure-design",
+  "unit": "marketplace-price-mapper",
+  "upstream_ids": [
+    "NFR4.1", "NFR4.2", "NFR4.3", "NFR4.4",
+    "NFR5.1",
+    "NFR7.1", "NFR7.2"
+  ],
+  "coverage": [
+    { "id": "NFR4.1", "status": "N/A", "target": "No infra control; data classification stays in security-design / code" },
+    { "id": "NFR4.2", "status": "N/A", "target": "No logging sink in CI; enforced in module design" },
+    { "id": "NFR4.3", "status": "OK", "target": "cicd-pipeline.md > Unit test coverage cases (blank id TypeError)" },
+    { "id": "NFR4.4", "status": "OK", "target": "cicd-pipeline.md > Unit test coverage cases (string low/high)" },
+    { "id": "NFR5.1", "status": "N/A", "target": "No analytics infra; Q3 A no new monitoring" },
+    { "id": "NFR7.1", "status": "OK", "target": "cicd-pipeline.md > FRE PR frontend test suite" },
+    { "id": "NFR7.2", "status": "OK", "target": "cicd-pipeline.md > existing FRE CI green / no second gate" }
+  ]
+}

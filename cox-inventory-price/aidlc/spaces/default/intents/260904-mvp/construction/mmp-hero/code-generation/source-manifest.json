@@ -1,0 +1,19 @@
+{
+  "stage": "code-generation",
+  "unit": "mmp-hero",
+  "version": 1,
+  "writes": [
+    {
+      "path": "apps/fre/scopes/caranddriver/components/content/fragments/vehicle-model.js"
+    },
+    {
+      "path": "apps/fre/scopes/caranddriver/components/content/review/hero-section/index.jsx"
+    },
+    {
+      "path": "apps/fre/scopes/caranddriver/components/content/review/hero-section/price-section/index.jsx"
+    },
+    {
+      "path": "apps/fre/scopes/caranddriver/components/content/review/hero-section/price-section/index.test.jsx"
+    }
+  ]
+}

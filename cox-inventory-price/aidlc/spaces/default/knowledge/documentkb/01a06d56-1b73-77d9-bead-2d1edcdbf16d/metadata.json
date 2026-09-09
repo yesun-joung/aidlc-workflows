@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "01a06d56-1b73-77d9-bead-2d1edcdbf16d",
+  "source": {
+    "kind": "managed",
+    "path": "documents/Model-level-Used-Car-Pricing-Vision-Doc.md"
+  },
+  "sha256": "0387298d65f0eda9cb780071c1aabbea042a01b037d41e2ced6fd500abe03d33",
+  "bytes": 13278,
+  "indexed_at": "2026-09-04T16:52:34.798Z",
+  "extraction": {
+    "state": "extracted",
+    "extractor": {
+      "name": "builtin-text",
+      "version": "1"
+    },
+    "chars": 13224,
+    "truncated": false,
+    "source_revision": "0387298d65f0eda9cb780071c1aabbea042a01b037d41e2ced6fd500abe03d33"
+  },
+  "summary": {
+    "state": "absent"
+  },
+  "content": "documentkb/01a06d56-1b73-77d9-bead-2d1edcdbf16d/content.md",
+  "content_sha256": "0387298d65f0eda9cb780071c1aabbea042a01b037d41e2ced6fd500abe03d33",
+  "content_trust": "untrusted",
+  "content_handling": "data-not-instructions"
+}

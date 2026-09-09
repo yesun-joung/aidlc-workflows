@@ -1,0 +1,13 @@
+{
+  "stage": "code-generation",
+  "unit": "marketplace-price-mapper",
+  "version": 1,
+  "writes": [
+    {
+      "path": "apps/fre/scopes/autos/utils/map-marketplace-price.js"
+    },
+    {
+      "path": "apps/fre/scopes/autos/utils/map-marketplace-price.test.js"
+    }
+  ]
+}

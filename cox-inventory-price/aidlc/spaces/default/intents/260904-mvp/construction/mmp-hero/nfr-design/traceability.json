@@ -1,0 +1,30 @@
+{
+  "stage": "nfr-design",
+  "unit": "mmp-hero",
+  "upstream_ids": [
+    "NFR1.1", "NFR1.2", "NFR1.3", "NFR1.4",
+    "NFR2.1", "NFR2.2",
+    "NFR4.1", "NFR4.2", "NFR4.3", "NFR4.4",
+    "NFR5.1",
+    "NFR6.2", "NFR6.3", "NFR6.4",
+    "NFR7.1", "NFR7.2"
+  ],
+  "coverage": [
+    { "id": "NFR1.1", "status": "OK", "target": "security-design.md > NFR1.1 keyboard on existing CTAs" },
+    { "id": "NFR1.2", "status": "OK", "target": "security-design.md > empty DOM while inFlight" },
+    { "id": "NFR1.3", "status": "OK", "target": "security-design.md > inherit hero contrast when settled" },
+    { "id": "NFR1.4", "status": "OK", "target": "security-design.md > silent swap; no aria-live" },
+    { "id": "NFR2.1", "status": "OK", "target": "performance-design.md > inherit hero breakpoints" },
+    { "id": "NFR2.2", "status": "OK", "target": "performance-design.md > same hide/marketplace/MSRP at all breakpoints" },
+    { "id": "NFR4.1", "status": "OK", "target": "security-design.md > public GraphQL figures" },
+    { "id": "NFR4.2", "status": "OK", "target": "security-design.md > no console/analytics" },
+    { "id": "NFR4.3", "status": "OK", "target": "security-design.md > pass numbers to U1; no coercion in UI" },
+    { "id": "NFR4.4", "status": "OK", "target": "security-design.md > readFailed MSRP; no error text in slot" },
+    { "id": "NFR5.1", "status": "OK", "target": "security-design.md > no telemetry" },
+    { "id": "NFR6.2", "status": "OK", "target": "performance-design.md > single VEHICLE_DATA_QUERY" },
+    { "id": "NFR6.3", "status": "OK", "target": "performance-design.md > sync mapper in render" },
+    { "id": "NFR6.4", "status": "OK", "target": "performance-design.md > no new latency SLA / no regression" },
+    { "id": "NFR7.1", "status": "OK", "target": "security-design.md > Test design hooks (inFlight, branch, readFailed, Cta href)" },
+    { "id": "NFR7.2", "status": "OK", "target": "tech-stack-decisions.md > CI green; no coverage floor" }
+  ]
+}

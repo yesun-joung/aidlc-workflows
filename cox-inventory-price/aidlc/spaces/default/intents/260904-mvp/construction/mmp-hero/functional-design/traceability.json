@@ -1,0 +1,32 @@
+{
+  "stage": "functional-design",
+  "unit": "mmp-hero",
+  "upstream_ids": [
+    "AC1.1.1", "AC1.1.2", "AC1.1.3", "AC1.1.4",
+    "AC2.1.1", "AC2.1.2", "AC2.1.3", "AC2.1.4",
+    "AC3.1.1", "AC3.1.2", "AC3.1.3", "AC3.1.4",
+    "AC4.1.1", "AC4.1.2", "AC4.1.3", "AC4.1.4"
+  ],
+  "coverage": [
+    { "id": "AC1.1.1", "status": "OK", "target": "BR2.2, BR2.4" },
+    { "id": "AC1.1.2", "status": "OK", "target": "BR2.5, BR2.6" },
+    { "id": "AC1.1.3", "status": "OK", "target": "BR2.7" },
+    { "id": "AC1.1.4", "status": "OK", "target": "BR2.8" },
+    { "id": "AC2.1.1", "status": "N/A", "target": "Ranking owned by mmp-ranking (U3)" },
+    { "id": "AC2.1.2", "status": "N/A", "target": "Ranking owned by mmp-ranking (U3)" },
+    { "id": "AC2.1.3", "status": "N/A", "target": "Ranking owned by mmp-ranking (U3)" },
+    { "id": "AC2.1.4", "status": "N/A", "target": "Ranking owned by mmp-ranking (U3)" },
+    { "id": "AC3.1.1", "status": "N/A", "target": "Card-back owned by vehicle-card-back (U4)" },
+    { "id": "AC3.1.2", "status": "N/A", "target": "Card-back owned by vehicle-card-back (U4)" },
+    { "id": "AC3.1.3", "status": "N/A", "target": "Card-back owned by vehicle-card-back (U4)" },
+    { "id": "AC3.1.4", "status": "N/A", "target": "Card-back owned by vehicle-card-back (U4)" },
+    { "id": "AC4.1.1", "status": "N/A", "target": "Category card owned by category-card (U5)" },
+    { "id": "AC4.1.2", "status": "N/A", "target": "Category card owned by category-card (U5)" },
+    { "id": "AC4.1.3", "status": "N/A", "target": "Category card owned by category-card (U5)" },
+    { "id": "AC4.1.4", "status": "N/A", "target": "Category card owned by category-card (U5)" }
+  ],
+  "reverse": [
+    { "id": "BR2.1", "status": "N/A", "target": "GraphQL selection enabler; no standalone AC" },
+    { "id": "BR2.3", "status": "N/A", "target": "Hide-while-in-flight from interaction-spec; no dedicated AC id" }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "stage": "code-generation",
+  "unit": "mmp-hero",
+  "upstream_ids": [
+    "US1.1",
+    "AC1.1.1", "AC1.1.2", "AC1.1.3", "AC1.1.4",
+    "FR5",
+    "NFR1.2", "NFR4.1", "NFR4.2", "NFR4.4",
+    "NFR5.1", "NFR6.2", "NFR7.1", "NFR7.2"
+  ],
+  "coverage": [
+    { "id": "AC1.1.1", "status": "OK", "target": "price-section: used-only marketplace + Marketplace title row + $LOW - $HIGH body", "note": "Product change 2026-09-08: used market_status gate" },
+    { "id": "AC1.1.2", "status": "OK", "target": "price-section MSRP title + PriceValues fallback" },
+    { "id": "AC1.1.3", "status": "OK", "target": "readFailed prop → mapper MSRP fallback" },
+    { "id": "AC1.1.4", "status": "OK", "target": "unchanged MarketplaceCta / shop CTAs" },
+    { "id": "FR5", "status": "OK", "target": "inFlight → hide / empty slot" },
+    { "id": "NFR1.2", "status": "OK", "target": "no title or body while inFlight" },
+    { "id": "NFR4.1", "status": "OK", "target": "GraphQL scalars only; no client persistence" },
+    { "id": "NFR4.2", "status": "OK", "target": "no new logging in price section" },
+    { "id": "NFR4.4", "status": "OK", "target": "readFailed MSRP; no error text in slot" },
+    { "id": "NFR5.1", "status": "OK", "target": "no new analytics" },
+    { "id": "NFR6.2", "status": "OK", "target": "VehicleModelFragment marketplace fields; market_status from existing year selection" },
+    { "id": "NFR7.1", "status": "OK", "target": "price-section/index.test.jsx (8 cases incl. used vs new)" },
+    { "id": "NFR7.2", "status": "OK", "target": "unit-test-instructions.md file-scoped npm test" }
+  ],
+  "product_changes": [
+    {
+      "date": "2026-09-08",
+      "summary": "Marketplace hero price applies only when year market_status is used; label uses MSRP-style title + price body."
+    }
+  ]
+}

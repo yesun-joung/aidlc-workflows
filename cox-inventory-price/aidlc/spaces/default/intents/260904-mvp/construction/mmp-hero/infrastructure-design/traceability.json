@@ -1,0 +1,30 @@
+{
+  "stage": "infrastructure-design",
+  "unit": "mmp-hero",
+  "upstream_ids": [
+    "NFR1.1", "NFR1.2", "NFR1.3", "NFR1.4",
+    "NFR2.1", "NFR2.2",
+    "NFR4.1", "NFR4.2", "NFR4.3", "NFR4.4",
+    "NFR5.1",
+    "NFR6.2", "NFR6.3", "NFR6.4",
+    "NFR7.1", "NFR7.2"
+  ],
+  "coverage": [
+    { "id": "NFR1.1", "status": "N/A", "target": "Accessibility enforced in component code; no infra control" },
+    { "id": "NFR1.2", "status": "N/A", "target": "Empty DOM while inFlight is render logic; no infra" },
+    { "id": "NFR1.3", "status": "N/A", "target": "Contrast inherited from existing hero CSS" },
+    { "id": "NFR1.4", "status": "N/A", "target": "Silent swap is UI behaviour; no infra" },
+    { "id": "NFR2.1", "status": "N/A", "target": "Breakpoints inherited in FRE bundle" },
+    { "id": "NFR2.2", "status": "N/A", "target": "Responsive rules in component code" },
+    { "id": "NFR4.1", "status": "N/A", "target": "No PII storage; security-design / code" },
+    { "id": "NFR4.2", "status": "N/A", "target": "No new log sinks in monitoring-design Q4 A" },
+    { "id": "NFR4.3", "status": "N/A", "target": "Input validation in price section code" },
+    { "id": "NFR4.4", "status": "N/A", "target": "Error handling in UI; no infra alarm" },
+    { "id": "NFR5.1", "status": "OK", "target": "monitoring-design.md > no new metrics/alerts" },
+    { "id": "NFR6.2", "status": "OK", "target": "infrastructure-specification.md > single Voltron GraphQL path" },
+    { "id": "NFR6.3", "status": "N/A", "target": "Sync mapper in render; no infra" },
+    { "id": "NFR6.4", "status": "N/A", "target": "No regression SLA instrumented in MVP infra" },
+    { "id": "NFR7.1", "status": "OK", "target": "cicd-pipeline.md > FRE PR component test cases" },
+    { "id": "NFR7.2", "status": "OK", "target": "cicd-pipeline.md > existing FRE CI green" }
+  ]
+}

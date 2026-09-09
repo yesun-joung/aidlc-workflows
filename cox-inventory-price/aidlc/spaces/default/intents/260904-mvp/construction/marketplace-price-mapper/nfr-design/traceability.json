@@ -1,0 +1,18 @@
+{
+  "stage": "nfr-design",
+  "unit": "marketplace-price-mapper",
+  "upstream_ids": [
+    "NFR4.1", "NFR4.2", "NFR4.3", "NFR4.4",
+    "NFR5.1",
+    "NFR7.1", "NFR7.2"
+  ],
+  "coverage": [
+    { "id": "NFR4.1", "status": "OK", "target": "security-design.md > Input validation / public figures only" },
+    { "id": "NFR4.2", "status": "OK", "target": "security-design.md > discard id; no console/analytics" },
+    { "id": "NFR4.3", "status": "OK", "target": "security-design.md > blank id → TypeError" },
+    { "id": "NFR4.4", "status": "OK", "target": "security-design.md > typeof + Number.isFinite presence" },
+    { "id": "NFR5.1", "status": "OK", "target": "security-design.md > no telemetry" },
+    { "id": "NFR7.1", "status": "OK", "target": "security-design.md > Test design hooks (string low/high; blank id)" },
+    { "id": "NFR7.2", "status": "OK", "target": "logical-components.md > in-process only; CI green left to FRE runner at Code Generation" }
+  ]
+}

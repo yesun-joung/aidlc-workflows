@@ -1,0 +1,20 @@
+{
+  "stage": "code-generation",
+  "unit": "marketplace-price-mapper",
+  "upstream_ids": [
+    "FR5",
+    "NFR4.1", "NFR4.2", "NFR4.3", "NFR4.4",
+    "NFR5.1",
+    "NFR7.1", "NFR7.2"
+  ],
+  "coverage": [
+    { "id": "FR5", "status": "OK", "target": "apps/fre/scopes/autos/utils/map-marketplace-price.js" },
+    { "id": "NFR4.1", "status": "OK", "target": "map-marketplace-price.js public figures only" },
+    { "id": "NFR4.2", "status": "OK", "target": "map-marketplace-price.js no logging" },
+    { "id": "NFR4.3", "status": "OK", "target": "assertVehicleModelId TypeError + tests" },
+    { "id": "NFR4.4", "status": "OK", "target": "isPresent + string coercion test" },
+    { "id": "NFR5.1", "status": "OK", "target": "no analytics in module" },
+    { "id": "NFR7.1", "status": "OK", "target": "map-marketplace-price.test.js" },
+    { "id": "NFR7.2", "status": "OK", "target": "FRE Vitest file-scoped command" }
+  ]
+}

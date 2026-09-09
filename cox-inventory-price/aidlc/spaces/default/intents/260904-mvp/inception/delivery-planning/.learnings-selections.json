@@ -1,0 +1,15 @@
+{
+  "stage_slug": "delivery-planning",
+  "space": "default",
+  "intent": "260904-mvp",
+  "selections": [
+    {
+      "candidate_id": "c1",
+      "type": "learning",
+      "scope": "project",
+      "heading": "Corrections",
+      "text": "Bolt 1 is U1 (marketplace-price-mapper) + U2 (mmp-hero) together as the walking skeleton; Bolts 2–4 are one placement each (ranking, card back, category card), serial on the FRE tree.",
+      "source": "orchestrator"
+    }
+  ]
+}

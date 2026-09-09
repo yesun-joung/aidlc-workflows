@@ -1,0 +1,15 @@
+{
+  "stage_slug": "rough-mockups",
+  "space": "default",
+  "intent": "260904-mvp",
+  "selections": [
+    {
+      "candidate_id": "user-1",
+      "type": "learning",
+      "scope": "project",
+      "heading": "Corrections",
+      "text": "WF-2 MMP ranking, WF-3 vehicle-card backs, and WF-4 category cards use only the low marketplace price as starting at {low}.",
+      "source": "user_addition"
+    }
+  ]
+}
